@@ -309,3 +309,19 @@ footer .redes a {
 footer .redes a:hover {
   color: #D4AF37;
 }
+@media (max-width: 768px) {
+  #menu .container a.btn {
+    display: block;
+    width: 80%;
+    margin: 0.5em auto;
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 480px) {
+  #menu .container a.btn {
+    font-size: 0.9em;
+    padding: 0.5em 1em;
+  }
+}
+
