@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Santa Copa | Restaurante Bar</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"/>
+</head>
+<body>
+ <!-- Preloader -->
+<div id="preloader">
+  <div class="preloader-content">
+    <img src="banner-verano.jpg" alt="La Santa Copa" class="preloader-img">
+    <div class="loader-pulse"></div>
+  </div>
+</div>
+
+
+
+  <!-- Header y Hero -->
+  <header>
+    <nav>
+  <a href="#inicio" class="logo">
+    <img src="logo.png" alt="La Santa Copa" />
+  </a>
+
+  <!-- Botón hamburguesa -->
+  <div class="menu-toggle" id="menu-toggle">
+    <i class="fas fa-bars"></i>
+  </div>
+
+  <!-- Menú principal -->
+  <ul id="nav-links">
+    <li><a href="#inicio">Inicio</a></li>
+    <li><a href="#nosotros">Sobre Nosotros</a></li>
+    <li><a href="#menu">Menú</a></li>
+    <li><a href="#galeria">Galería</a></li>
+    <li><a href="#eventos">Eventos</a></li>
+    <li><a href="#ubicacion">Ubicación</a></li>
+    <li><a href="#reservaciones">Reservaciones</a></li>
+  </ul>
+</nav>
+
+    <section id="inicio" class="hero">
+      <div class="hero-content" data-aos="fade-up">
+        <h1>La Santa Copa</h1>
+        <p>Sabores que celebran, música que conecta</p>
+        <a href="#reservaciones" class="btn">Reserva Ahora</a>
+      </div>
+    </section>
+  </header>
+
+  <!-- Sobre Nosotros -->
+  <section id="nosotros" data-aos="fade-up">
+    <div class="container">
+      <h2>Sobre Nosotros</h2>
+      <p>En <strong>La Santa Copa</strong>, la fiesta comienza desde el primer trago. Fusionamos lo mejor de la cocina mexicana contemporánea con una atmósfera vibrante. Cada noche es una experiencia que une sabores, música en vivo y coctelería de autor.</p>
+    </div>
+  </section>
+
+  <!-- Menú -->
+  <section id="menu" data-aos="fade-up">
+    <div class="container">
+      <h2>Menú</h2>
+      <p>Descubre nuestras especialidades y bebidas exclusivas.</p>
+      <a href="menu-espanol.pdf" class="btn" target="_blank">Ver Menú (Español)</a>
+      <a href="menu-ingles.pdf" class="btn" target="_blank">View Menu (English)</a>
+    </div>
+  </section>
+
+  <!-- Galería -->
+  <section id="galeria" data-aos="fade-up">
+    <div class="container">
+      <h2>Galería</h2>
+      <div class="gallery">
+        <img src="galeria1.jpg" alt="Coctel">
+        <img src="galeria2.jpg" alt="Platillo">
+        <img src="galeria3.jpg" alt="Ambiente">
+      </div>
+    </div>
+  </section>
+
+  <section id="eventos" data-aos="fade-up">
+  <div class="container">
+    <h2>Eventos y Promociones</h2>
+    <div class="eventos">
+      <div class="evento">
+        <img src="evento1.jpg" alt="Viernes de DJ">
+        <h3>Viernes de DJ</h3>
+        <p>Disfruta los mejores beats con mixología especial.</p>
+      </div>
+      <div class="evento">
+        <img src="evento2.jpg" alt="Ladies Night">
+        <h3>Ladies Night</h3>
+        <p>Bebidas 2x1 para ellas cada jueves de 8 a 11 PM.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Ubicación -->
+  <section id="ubicacion" data-aos="fade-up">
+    <div class="container">
+      <h2>Ubícanos</h2>
+      <div class="mapa">
+        <iframe src="https://maps.google.com/maps?q=zona%20centro%20cancun&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <p>Dirección: Calle Ficticia #123, Zona Centro, Cancún, Q. Roo</p>
+      <p>Tel: (998) 123 4567</p>
+    </div>
+  </section>
+
+  <!-- Reservaciones -->
+  <section id="reservaciones" data-aos="fade-up">
+    <div class="container">
+      <h2>Reservaciones</h2>
+      <form>
+        <input type="text" placeholder="Nombre completo" required>
+        <input type="email" placeholder="Correo electrónico" required>
+        <input type="tel" placeholder="Teléfono" required>
+        <input type="date" required>
+        <input type="time" required>
+        <textarea placeholder="Mensaje adicional (opcional)"></textarea>
+        <button type="submit">Reservar</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Pop-up promocional -->
+  <div id="popup">
+    <div class="popup-content">
+      <span class="close">&times;</span>
+      <h3>🎉 Promo del mes</h3>
+      <p>¡2x1 en mojitos todos los martes!</p>
+    </div>
+  </div>
+
+  <!-- Botón flotante WhatsApp -->
+  <a href="https://wa.me/5219981234567" class="whatsapp-float" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 La Santa Copa. Todos los derechos reservados.</p>
+      <div class="redes">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-tiktok"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+
+    // Preloader
+    window.addEventListener('load', () => {
+      document.getElementById('preloader').style.display = 'none';
+    });
+
+    // Pop-up
+    window.onload = () => {
+      const popup = document.getElementById("popup");
+      const close = document.querySelector(".close");
+      popup.style.display = "block";
+      close.onclick = () => popup.style.display = "none";
+    }
+  </script>
+<script>
+  const toggle = document.getElementById('menu-toggle');
+  const navLinks = document.getElementById('nav-links');
+
+  toggle.addEventListener('click', () => {
+    navLinks.classList.toggle('show');
+  });
+</script>
+
+</body>
+</html>
